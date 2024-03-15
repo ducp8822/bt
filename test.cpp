@@ -1,17 +1,24 @@
-#include <bits/stdc++.h>
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
-int main()
-{
-    set <int> a ;
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     int n;
     cin>>n;
+    vector<int> v;
     for (int i=0;i<n;i++){
         int k;
         cin>>k;
-        a.insert(k);
+        v.push_back(k);
+    }  
+    sort(v.begin(),v.end());
+    for (auto &i:v){
+        cout<<i<<" ";
     }
-    if(a.size()!=n){
-        cout<<"No";
-    } else cout<<"Yes";
+    return 0;
 }
