@@ -5,7 +5,7 @@ int main()
 {
     int n;
     cin>>n;
-    int a[100][100];
+    long long a[200][200];
     memset(a,0,sizeof(a));
 
     int cnt = 1;
