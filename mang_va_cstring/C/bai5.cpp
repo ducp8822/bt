@@ -7,7 +7,7 @@ int main()
     cin>>x>>y;
     int a[100][100];
     int h1=0,h2=x-1,c1=0,c2=y-1,dem=1;
-    while(h1<=h2 && c1<=c2){
+    while(h1<=h2 && c1<=c2){    
         for (int i=c1;i<=c2;i++){
             a[h1][i]=dem;
             dem++;
