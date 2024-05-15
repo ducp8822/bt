@@ -12,7 +12,7 @@ struct Rect{
         bool X =(point.x>=x)&&(x<=point.x+w);
         bool Y =(point.y>=y)&&(y<=point.y + h);
         return  X &&  Y;
-        }
+    }
 
     
 };
